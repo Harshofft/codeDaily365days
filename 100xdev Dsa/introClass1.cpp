@@ -45,16 +45,16 @@ int main(){
     // cout<<"Area = "<<area<<endl;
     // cout<<"Perimeter = "<<Perimeter;
 
-    //******calculator ***** */
+    // ******calculator ***** */
 
-    // int a , b;
-    // cin>>a>>b;
-    // cout<<a<<" + "<<b<<" = "<<a+b<<endl;
-    // cout<<a<<" - "<<b<<" = "<<a-b<<endl;
-    // cout<<a<<" * "<<b<<" = "<<a*b<<endl;
-    // cout<<a<<" / "<<b<<" = "<<a/b<<endl;
-    // cout<<a<<" % "<<b<<" = "<<a%b<<endl;
-    // return 0;
+    int a , b;
+    cin>>a>>b;
+    cout<<a<<" + "<<b<<" = "<<a+b<<endl;
+    cout<<a<<" - "<<b<<" = "<<a-b<<endl;
+    cout<<a<<" * "<<b<<" = "<<a*b<<endl;
+    cout<<a<<" / "<<b<<" = "<<a/b<<endl;
+    cout<<a<<" % "<<b<<" = "<<a%b<<endl;
+    return 0;
 
     // add the 2 last digit of 2 no
 
