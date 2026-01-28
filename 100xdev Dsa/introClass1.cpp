@@ -47,20 +47,45 @@ int main(){
 
     // ******calculator ***** */
 
-    int a , b;
-    cin>>a>>b;
-    cout<<a<<" + "<<b<<" = "<<a+b<<endl;
-    cout<<a<<" - "<<b<<" = "<<a-b<<endl;
-    cout<<a<<" * "<<b<<" = "<<a*b<<endl;
-    cout<<a<<" / "<<b<<" = "<<a/b<<endl;
-    cout<<a<<" % "<<b<<" = "<<a%b<<endl;
-    return 0;
+    // int a , b;
+    // cin>>a>>b;
+    // cout<<a<<" + "<<b<<" = "<<a+b<<endl;
+    // cout<<a<<" - "<<b<<" = "<<a-b<<endl;
+    // cout<<a<<" * "<<b<<" = "<<a*b<<endl;
+    // cout<<a<<" / "<<b<<" = "<<a/b<<endl;
+    // cout<<a<<" % "<<b<<" = "<<a%b<<endl;
+    // return 0;
 
     // add the 2 last digit of 2 no
 
-    int a ,b ;
+    // int a ,b ;
+    // cin>>a>>b;
+    // a=a%10;
+    // b=b%10;
+    // cout<<a+b;
+
+    //*****even or odd no  
+
+    // long long a;
+    // cin >>a;
+    
+    // if(a%2==0){
+    //     cout<<"Even"<<endl;
+    // }
+    // else {
+    //     cout<<"Odd"<<endl;
+    // }
+    // return 0;
+
+    //************factor */
+
+    long long a , b;
     cin>>a>>b;
-    a=a%10;
-    b=b%10;
-    cout<<a+b;
+    if(a%b==0){
+        cout<<"Yes"<<endl;
+    }
+    else{
+        cout<<"No"<<endl;
+    }
+    return 0;
 }
