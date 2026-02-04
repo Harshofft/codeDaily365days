@@ -1,6 +1,7 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
 
     //---for trangle ******
 
@@ -12,8 +13,8 @@ int main(){
     //     }
     //     cout << endl;
     // }
-    
-    // ********creating z with cout 
+
+    // ********creating z with cout
 
     // cout<<"*****"<<endl;
     // cout<<"   * "<<endl;
@@ -21,8 +22,7 @@ int main(){
     // cout<<" *   "<<endl;
     // cout<<"*****"<<endl;
     // return 0;
-    
-    
+
     //*****************table  */
 
     // int table =5;
@@ -31,7 +31,6 @@ int main(){
     //     cout<<table<<" * "<<i<<" = "<<table*i<<endl;
     // }
     // return 0;
-
 
     // *********area calculate*****
 
@@ -64,11 +63,11 @@ int main(){
     // b=b%10;
     // cout<<a+b;
 
-    //*****even or odd no  
+    //*****even or odd no
 
     // long long a;
     // cin >>a;
-    
+
     // if(a%2==0){
     //     cout<<"Even"<<endl;
     // }
@@ -79,13 +78,182 @@ int main(){
 
     //************factor */
 
-    long long a , b;
-    cin>>a>>b;
-    if(a%b==0){
-        cout<<"Yes"<<endl;
+    // long long a , b;
+    // cin>>a>>b;
+    // if(a%b==0){
+    //     cout<<"Yes"<<endl;
+    // }
+    // else{
+    //     cout<<"No"<<endl;
+    // }
+    // return 0;
+
+
+    //***********max and min in 3 digit  */
+
+    // long long a, b, c;
+    // cin >>a>>b>>c;
+    // int max = a;
+    // int  min = a;
+    // if (b < min)
+    // {
+    //     min = b;
+    // }
+    // if (b > max)
+    // {
+    //     max =b;
+    // }
+
+    // if (c <min )
+    // {
+    //     min = c;
+    // }
+    // if (c > max)
+    // {
+    //     max = c;
+    // }
+    // cout << "Min = " << min << endl;
+    // cout << "Max = " << max << endl;
+    // return 0;
+
+    // long long A, B, C;
+    // if (!(cin >> A >> B >> C)) return 0;
+
+    // long long mn = A, mx = A;
+
+    // if (B < mn) mn = B;
+    // if (C < mn) mn = C;
+
+    // if (B > mx) mx = B;
+    // if (C > mx) mx = C;
+
+    // cout << "Min = " << mn << '\n';
+    // cout << "Max = " << mx;
+    // return 0;
+
+
+
+    // int a ,b;
+    // cin>>a;
+    // for (int i= 1 ; i<=a ; i++){
+    //     for(int j = 1 ; j<=a ;j++ ){
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+    // return 0;
+
+
+    //*********************hellow square
+
+    // int a;
+    // cin>>a;
+    // for(int i = 1 ;i<=a;i++){
+    //     for(int j = 1; j<=a; j++){
+    //         if(i==1||i==a){
+    //             cout<<"*";
+    //         }
+    //         if(i>1&&i<a){
+    //             if(j==1||j==a){
+    //                 cout<<"*";
+    //             }
+    //             else{
+    //                 cout<<' ';
+    //             }
+    //         }
+           
+    //     }
+    //      cout<<endl;
+    // }
+    // return 0;
+
+    //pyramide of trangle
+
+    // int a;
+    // cin>>a;
+    // for (int i = 1; i <= a; i++)
+    // {
+    //     for(int j= 1 ; j<=i;j++){
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //  int a;
+    // cin>>a;
+    // for (int i = a; i>=1; i--)
+    // {
+    //     for(int j= 1 ; j<=i;j++){
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
+    // ***************hallow rectrangle
+
+    //   int a,b;
+    // cin>>a>>b;
+    // for(int i = 1 ;i<=a;i++){
+    //     for(int j = 1; j<=b; j++){
+    //         if(i==1||i==a ||j==1|| j==b){
+    //             cout<<"*";
+    //         }
+    //         else{
+    //             cout<<" ";
+    //         }
+            // if(i==1||i==a){
+            //     cout<<"*";
+            // }
+            // if(i>1&&i<a){
+            //     if(j==1||j==b){
+            //         cout<<"*";
+            //     }
+            //     else{
+            //         cout<<' ';
+            //     }
+            // }
+           
+    //     }
+    //      cout<<endl;
+    // }
+    // return 0;
+
+    
+    //J. Vertical Traingle
+// * 
+// * * 
+// * * * 
+// * * * * 
+// * * * 
+// * * 
+// * 
+
+int a ;
+cin>>a;
+for (int i = 1; i <= a; i++)
+{
+    for(int j =1 ; j<=i ; j++){
+        // cout<<"* ";
+        if(i==1||j==1||j==i){
+            cout<<"* ";
+        }
+        else{
+            cout<<"  ";
+        }
     }
-    else{
-        cout<<"No"<<endl;
+    cout<<endl;
+}
+for(int i = a-1 ; i>=1;i--){
+    for(int j=1 ; j<=i;j++ ){
+       if(i==1||j==1||j==i){
+        cout<<"* ";
+       } 
+       else{
+        cout<<"  ";
+       }
     }
-    return 0;
+    cout<<endl;
+}
+
+
 }
